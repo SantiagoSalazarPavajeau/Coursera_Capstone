@@ -1,7 +1,7 @@
  The Orlando area is explored for business opportunities reviewing the most common venues using Foursquare. To do that Wikipedia is 
  scraped for the neighborhood names of the area and Geocoder is used to extract the coordinates of each neighborhood.
  Then with the coordinates for the neighborhoods the Foursquare API is used to get the most common categories of venues in these
- neighborhoods and thus bring some conclusions as to whether there are any unmet needs in the area that could be satisfied through a new
- business venture.
+ neighborhoods and thus bring some conclusions as to whether there are any unmet needs in the area that could be satisfied through an 
+ entrepreneurship project.
  
  The Foursquare API is leveraged through its different features in order to explore the area and find new insights.
