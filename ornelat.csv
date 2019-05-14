@@ -1,3 +1,5 @@
+### Data corresponds to coordinates of Orlando Neighborhoods sources: Wikipedia and Geocoder.
+
 Neighborhood,Latitude,Longitude
  Beltway Commerce Center,28.4760126,-81.23284482
  East Park,28.42365085,-81.23569443
@@ -112,3 +114,94 @@ Lake Buena Vista,28.3695,-81.5261
 Hunters Creek,28.3606,-81.4223
 Celebration,28.3189,-81.5408
 Lake Mary,28.7589,-81.3178
+
+# This part of the data shows the top 10 venues in each neighborhood. This data will be clustered with different values in
+order to get a closer look at what the type of venues look like in each Neighborhood.
+
+Neighborhood,Latitude,Longitude,Cluster Labels,1st Most Common Venue,2nd Most Common Venue,3rd Most Common Venue,4th Most Common Venue,5th Most Common Venue,6th Most Common Venue,7th Most Common Venue,8th Most Common Venue,9th Most Common Venue,10th Most Common Venue,
+1,"East Park, Florida,",28.423651,-81.235694,0,Lake,Trail,Park,Bus Station,Basketball Court,Pet Store,Food Truck,Food,Fishing Spot,Fast Food Restaurant
+2,"Narcoossee South, Florida,",28.350192,-81.237217,21,Convenience Store,Fast Food Restaurant,Yoga Studio,Electronics Store,French Restaurant,Football Stadium,Food Truck,Food,Fishing Spot,Farmers Market
+4,"LaVina, Florida,",28.427868,-81.249406,1,Pool,Gym / Fitness Center,Yoga Studio,Electronics Store,Football Stadium,Food Truck,Food,Fishing Spot,Fast Food Restaurant,Farmers Market
+7,"Vista East, Florida,",28.472186,-81.255766,6,Gym,Yoga Studio,Furniture / Home Store,French Restaurant,Football Stadium,Food Truck,Food,Fishing Spot,Fast Food Restaurant,Farmers Market
+8,"Lake Nona Estates, Florida,",28.415388,-81.257322,26,Golf Course,Business Service,Yoga Studio,Fried Chicken Joint,Football Stadium,Food Truck,Food,Fishing Spot,Fast Food Restaurant,Farmers Market
+10,"NorthLake Park at Lake Nona, Florida,",28.421886,-81.265223,27,Market,Gym / Fitness Center,Athletics & Sports,Dog Run,Yoga Studio,Fabric Shop,Football Stadium,Food Truck,Food,Fishing Spot
+12,"Lake Nona Central, Florida,",28.394003,-81.267452,27,Real Estate Office,Wine Bar,Deli / Bodega,Plaza,Gym,Donut Shop,Food Truck,Food,Fishing Spot,Fast Food Restaurant
+13,"Ventura, Florida,",28.509321,-81.296282,18,Restaurant,Pool,Playground,Golf Course,Yoga Studio,Donut Shop,Food,Fishing Spot,Fast Food Restaurant,Farmers Market
+14,"Airport North, Florida,",28.465374,-81.298283,0,American Restaurant,Office,Pizza Place,Café,Yoga Studio,Fabric Shop,Football Stadium,Food Truck,Food,Fishing Spot
+15,"Engelwood Park, Florida,",28.531717,-81.29923,4,Art Gallery,Park,Yoga Studio,Electronics Store,Football Stadium,Food Truck,Food,Fishing Spot,Fast Food Restaurant,Farmers Market
+16,"Azalea Park, Florida,",28.547361,-81.301047,12,Chinese Restaurant,Yoga Studio,Electronics Store,French Restaurant,Football Stadium,Food Truck,Food,Fishing Spot,Fast Food Restaurant,Farmers Market
+17,"Countryside, Florida,",28.484448,-81.304034,13,Discount Store,Yoga Studio,Electronics Store,French Restaurant,Football Stadium,Food Truck,Food,Fishing Spot,Fast Food Restaurant,Farmers Market
+18,"Orlando International Airport, Florida,",28.412904,-81.309443,22,Rental Car Location,Fried Chicken Joint,French Restaurant,Football Stadium,Food Truck,Food,Fishing Spot,Fast Food Restaurant,Farmers Market,Fabric Shop
+19,"Lake Fredrica, Florida,",28.504538,-81.312076,27,Cosmetics Shop,Chinese Restaurant,Shoe Store,Shipping Store,Supplement Shop,Grocery Store,Sandwich Place,Latin American Restaurant,Fast Food Restaurant,Pet Store
+20,"South Semoran, Florida,",28.501622,-81.312312,27,Fast Food Restaurant,Chinese Restaurant,Grocery Store,Pizza Place,Gym / Fitness Center,Shoe Store,Shipping Store,Liquor Store,Sandwich Place,Supplement Shop
+21,"Dixie Belle, Florida,",28.518876,-81.314486,27,Big Box Store,Clothing Store,Grocery Store,Fast Food Restaurant,Paper / Office Supplies Store,Yoga Studio,Fabric Shop,Football Stadium,Food Truck,Food
+22,"Boggy Creek, Florida,",28.347292,-81.318775,24,Food Truck,Yoga Studio,Electronics Store,French Restaurant,Football Stadium,Food,Fishing Spot,Fast Food Restaurant,Farmers Market,Fabric Shop
+24,"Bryn Mawr, Florida,",28.510155,-81.323651,27,Cocktail Bar,Lounge,Tour Provider,Yoga Studio,Electronics Store,Football Stadium,Food Truck,Food,Fishing Spot,Fast Food Restaurant
+25,"The Dovers, Florida,",28.535796,-81.323961,27,Intersection,Dance Studio,Sports Bar,Art Gallery,Pet Store,Electronics Store,Football Stadium,Food Truck,Food,Fishing Spot
+26,"Mariners Village, Florida,",28.514986,-81.324685,27,Food Truck,Video Store,Lake,Yoga Studio,Electronics Store,French Restaurant,Football Stadium,Food,Fishing Spot,Fast Food Restaurant
+28,"Baldwin Park, Florida,",28.569516,-81.327513,27,Spa,French Restaurant,Candy Store,Restaurant,Food Truck,Sushi Restaurant,Sandwich Place,Scenic Lookout,Grocery Store,Smoothie Shop
+29,"Dover Shores East, Florida,",28.532994,-81.328058,27,Yoga Studio,Art Gallery,Fishing Spot,Cupcake Shop,Insurance Office,Indie Theater,Football Stadium,Food Truck,Food,Intersection
+30,"Conway, Florida,",28.502406,-81.330892,21,Pet Store,Convenience Store,Donut Shop,Football Stadium,Food Truck,Food,Fishing Spot,Fast Food Restaurant,Farmers Market,Fabric Shop
+31,"Orlando Executive Airport, Florida,",28.546174,-81.331636,25,Bridal Shop,Business Service,Yoga Studio,Cupcake Shop,French Restaurant,Football Stadium,Food Truck,Food,Fishing Spot,Fast Food Restaurant
+32,"Crescent Park, Florida,",28.463652,-81.336013,16,Park,Home Service,Yoga Studio,Electronics Store,Football Stadium,Food Truck,Food,Fishing Spot,Fast Food Restaurant,Farmers Market
+33,"Wedgewood Groves, Florida,",28.515942,-81.337158,17,Dog Run,Food Truck,Pool,Donut Shop,Football Stadium,Food,Fishing Spot,Fast Food Restaurant,Farmers Market,Fabric Shop
+35,"Lake Underhill, Florida,",28.534737,-81.337358,27,Music Venue,Pool,Spa,Lake,Gym / Fitness Center,Electronics Store,Football Stadium,Food Truck,Food,Fishing Spot
+36,"Colonial Town Center, Florida,",28.554585,-81.337637,27,Clothing Store,Accessories Store,Shoe Store,Hobby Shop,Food Truck,Department Store,Movie Theater,Chinese Restaurant,Sporting Goods Shop,Bowling Alley
+37,"Audubon Park, Florida,",28.564986,-81.340944,16,Park,Home Service,Yoga Studio,Electronics Store,Football Stadium,Food Truck,Food,Fishing Spot,Fast Food Restaurant,Farmers Market
+38,"East Central Park, Florida,",28.544392,-81.347801,27,Vietnamese Restaurant,Sandwich Place,Bar,Boutique,Record Shop,Sports Bar,Street Food Gathering,Beer Garden,Lawyer,Dive Bar
+39,"Coytown, Florida,",28.556309,-81.350027,27,Chinese Restaurant,Park,Café,Bank,Thrift / Vintage Store,Health & Beauty Service,Supermarket,Video Store,Cosmetics Shop,Gym / Fitness Center
+40,"Colonialtown North, Florida,",28.560465,-81.358061,18,Playground,Boat or Ferry,Pool,Dog Run,Campground,Gym Pool,Park,Yoga Studio,Electronics Store,Food
+41,"Colonialtown South, Florida,",28.549063,-81.35819,2,Intersection,Yoga Studio,Electronics Store,French Restaurant,Football Stadium,Food Truck,Food,Fishing Spot,Fast Food Restaurant,Farmers Market
+42,"Rowena Gardens, Florida,",28.568983,-81.358408,0,Garden,History Museum,Scenic Lookout,Park,Donut Shop,Food Truck,Food,Fishing Spot,Fast Food Restaurant,Farmers Market
+43,"Lawsona/Fern Creek, Florida,",28.541787,-81.359242,23,Park,Yoga Studio,Electronics Store,Football Stadium,Food Truck,Food,Fishing Spot,Fast Food Restaurant,Farmers Market,Fabric Shop
+44,"Rose Isle, Florida,",28.574139,-81.359812,0,Park,Lake,Theater,Lawyer,Bar,Yoga Studio,Football Stadium,Food Truck,Food,Fishing Spot
+45,"Lake Weldona, Florida,",28.528279,-81.362051,4,Park,Intersection,Sandwich Place,Electronics Store,Football Stadium,Food Truck,Food,Fishing Spot,Fast Food Restaurant,Farmers Market
+46,"Lake Davis/Greenwood, Florida,",28.533149,-81.362109,4,Park,Cemetery,Sandwich Place,Donut Shop,Food Truck,Food,Fishing Spot,Fast Food Restaurant,Farmers Market,Fabric Shop
+47,"Lancaster Park, Florida,",28.523128,-81.363383,0,Intersection,American Restaurant,Theater,Park,Electronics Store,Football Stadium,Food Truck,Food,Fishing Spot,Fast Food Restaurant
+48,"Thornton Park, Florida,",28.543279,-81.364583,27,Juice Bar,Cosmetics Shop,Bar,Pizza Place,Dive Bar,Coffee Shop,Park,Burger Joint,French Restaurant,Breakfast Spot
+50,"Orwin Manor, Florida,",28.581689,-81.365331,10,ATM,Electronics Store,French Restaurant,Football Stadium,Food Truck,Food,Fishing Spot,Fast Food Restaurant,Farmers Market,Fabric Shop
+51,"Southern Oaks, Florida,",28.50461,-81.365949,11,Light Rail Station,Yoga Studio,Electronics Store,French Restaurant,Football Stadium,Food Truck,Food,Fishing Spot,Fast Food Restaurant,Farmers Market
+52,"Lake Formosa, Florida,",28.569633,-81.36833,0,Theater,Movie Theater,Park,Art Museum,Science Museum,Football Stadium,Food Truck,Food,Fishing Spot,Fast Food Restaurant
+53,"Wadeview Park, Florida,",28.517219,-81.369042,0,Intersection,Football Stadium,Soccer Stadium,Park,Performing Arts Venue,Department Store,Electronics Store,Food,Fishing Spot,Fast Food Restaurant
+54,"Park Lake/Highland, Florida,",28.558622,-81.369055,15,Tattoo Parlor,Yoga Studio,Fried Chicken Joint,Football Stadium,Food Truck,Food,Fishing Spot,Fast Food Restaurant,Farmers Market,Fabric Shop
+55,"Delaney Park, Florida,",28.529102,-81.371594,0,Intersection,Optical Shop,Pizza Place,Baseball Field,Park,Electronics Store,Food Truck,Food,Fishing Spot,Fast Food Restaurant
+56,"Lake Cherokee, Florida,",28.532597,-81.372501,4,Baseball Field,Park,Yoga Studio,Fried Chicken Joint,Football Stadium,Food Truck,Food,Fishing Spot,Fast Food Restaurant,Farmers Market
+57,"Lake Copeland, Florida,",28.526635,-81.3744,27,Intersection,Mexican Restaurant,Sandwich Place,Pizza Place,Optical Shop,Baseball Field,Yoga Studio,Fabric Shop,Food Truck,Food
+58,"South Orange, Florida,",28.516996,-81.378699,27,Coffee Shop,Mexican Restaurant,Pizza Place,Fast Food Restaurant,Burger Joint,Spa,Smoothie Shop,Big Box Store,Cuban Restaurant,Cosmetics Shop
+59,"Lake Holden, Florida,",28.509502,-81.382559,5,Athletics & Sports,Yoga Studio,Electronics Store,French Restaurant,Football Stadium,Food Truck,Food,Fishing Spot,Fast Food Restaurant,Farmers Market
+60,"South Division, Florida,",28.521996,-81.383876,27,Intersection,Arts & Crafts Store,Pizza Place,Train Station,Shop & Service,Yoga Studio,Donut Shop,Food Truck,Food,Fishing Spot
+61,"Lake Dot, Florida,",28.552056,-81.386653,0,American Restaurant,Indie Theater,Convenience Store,Hotel Pool,Hotel,Lawyer,Bistro,Yoga Studio,Electronics Store,Food Truck
+62,"Holden Heights, Florida,",28.520289,-81.387541,27,Shop & Service,Intersection,Bakery,Train Station,Department Store,Fabric Shop,Football Stadium,Food Truck,Food,Fishing Spot
+63,"Holden/Parramore, Florida,",28.537004,-81.389881,27,Bar,Gay Bar,Arts & Crafts Store,Sausage Shop,BBQ Joint,Yoga Studio,Football Stadium,Food Truck,Food,Fishing Spot
+65,"Lorna Doone, Florida,",28.537477,-81.402112,0,Stadium,Football Stadium,Park,Yoga Studio,Cuban Restaurant,Food Truck,Food,Fishing Spot,Fast Food Restaurant,Farmers Market
+67,"Rio Grande Park, Florida,",28.511644,-81.404245,27,Hobby Shop,Caribbean Restaurant,Food,Discount Store,Football Stadium,Food Truck,Fishing Spot,Fast Food Restaurant,Farmers Market,Fabric Shop
+68,"Lake Sunset, Florida,",28.5362,-81.40973,23,Park,Yoga Studio,Electronics Store,Football Stadium,Food Truck,Food,Fishing Spot,Fast Food Restaurant,Farmers Market,Fabric Shop
+69,"Lake Shore Village, Florida,",28.58653,-81.409746,27,Furniture / Home Store,Rental Service,Convenience Store,Lake,Athletics & Sports,Home Service,Electronics Store,Football Stadium,Food Truck,Food
+70,"Lake Fairview, Florida,",28.600709,-81.411018,27,Hobby Shop,Lake,Athletics & Sports,Baseball Field,Furniture / Home Store,Fabric Shop,French Restaurant,Football Stadium,Food Truck,Food
+71,"West Colonial, Florida,",28.553109,-81.411849,27,Grocery Store,Fast Food Restaurant,Clothing Store,Latin American Restaurant,Seafood Restaurant,Caribbean Restaurant,Lawyer,Office,Bakery,Automotive Shop
+72,"Clear Lake, Florida,",28.52743,-81.412109,7,Lake,Yoga Studio,Electronics Store,French Restaurant,Football Stadium,Food Truck,Food,Fishing Spot,Fast Food Restaurant,Farmers Market
+73,"Park Central, Florida,",28.490374,-81.413479,27,Gym / Fitness Center,Convenience Store,Bank,Pizza Place,Sandwich Place,Mobile Phone Shop,Sushi Restaurant,Grocery Store,Pool,American Restaurant
+74,"Haralson Estates, Florida,",28.549828,-81.415961,27,Bakery,Fast Food Restaurant,Intersection,Convenience Store,Construction & Landscaping,Diner,Pizza Place,Caribbean Restaurant,Bus Station,Fried Chicken Joint
+75,"Catalina, Florida,",28.514161,-81.417705,3,Travel & Transport,Yoga Studio,Donut Shop,Football Stadium,Food Truck,Food,Fishing Spot,Fast Food Restaurant,Farmers Market,Fabric Shop
+77,"Washington Shores, Florida,",28.530144,-81.42063,27,BBQ Joint,Restaurant,Mobile Phone Shop,Shopping Mall,Donut Shop,Food Truck,Food,Fishing Spot,Fast Food Restaurant,Farmers Market
+78,"Princeton/Silver Star, Florida,",28.575874,-81.420733,14,Sandwich Place,Yoga Studio,Donut Shop,Football Stadium,Food Truck,Food,Fishing Spot,Fast Food Restaurant,Farmers Market,Fabric Shop
+79,"Johnson Village, Florida,",28.523736,-81.423392,1,Pool,Yoga Studio,Donut Shop,Football Stadium,Food Truck,Food,Fishing Spot,Fast Food Restaurant,Farmers Market,Fabric Shop
+82,"Mercy Drive, Florida,",28.572447,-81.430682,2,Intersection,Yoga Studio,Electronics Store,French Restaurant,Football Stadium,Food Truck,Food,Fishing Spot,Fast Food Restaurant,Farmers Market
+83,"Rosemont, Florida,",28.600459,-81.432094,0,Intersection,Electronics Store,Lake,Mexican Restaurant,French Restaurant,Football Stadium,Food Truck,Food,Fishing Spot,Fast Food Restaurant
+84,"Millenia, Florida,",28.488299,-81.432327,27,Cosmetics Shop,Clothing Store,American Restaurant,Electronics Store,Italian Restaurant,Shoe Store,Burger Joint,Lingerie Store,Women's Store,Department Store
+85,"Seaboard Industrial, Florida,",28.583557,-81.433998,9,Outdoor Supply Store,Yoga Studio,Electronics Store,Football Stadium,Food Truck,Food,Fishing Spot,Fast Food Restaurant,Farmers Market,Fabric Shop
+86,"Camellia Gardens, Florida,",28.476298,-81.434751,8,Hot Dog Joint,Yoga Studio,Electronics Store,French Restaurant,Football Stadium,Food Truck,Food,Fishing Spot,Fast Food Restaurant,Farmers Market
+87,"33rd Street Industrial, Florida,",28.505867,-81.435209,0,Brewery,Office,Farmers Market,Lighting Store,Yoga Studio,Fried Chicken Joint,Football Stadium,Food Truck,Food,Fishing Spot
+89,"Malibu Groves, Florida,",28.539433,-81.43798,0,Bakery,Laundromat,Park,Yoga Studio,French Restaurant,Football Stadium,Food Truck,Food,Fishing Spot,Fast Food Restaurant
+91,"New Malibu, Florida,",28.531913,-81.44098,4,Intersection,Clothing Store,Park,Electronics Store,Football Stadium,Food Truck,Food,Fishing Spot,Fast Food Restaurant,Farmers Market
+93,"Signal Hill, Florida,",28.598496,-81.445621,29,Moving Target,Gym,Yoga Studio,Fried Chicken Joint,Football Stadium,Food Truck,Food,Fishing Spot,Fast Food Restaurant,Farmers Market
+95,"Williamsburg, Florida,",28.40508,-81.446501,27,Yoga Studio,Supplement Shop,Bridal Shop,Chinese Restaurant,Department Store,Grocery Store,Gym,Hobby Shop,Intersection,Liquor Store
+96,"Florida Center North, Florida,",28.484958,-81.447864,27,Moving Target,Ice Cream Shop,Pool,Pizza Place,Business Service,Yoga Studio,Electronics Store,Food Truck,Food,Fishing Spot
+97,"Timberleaf, Florida,",28.531006,-81.448896,16,Fast Food Restaurant,Home Service,Yoga Studio,Electronics Store,French Restaurant,Football Stadium,Food Truck,Food,Fishing Spot,Farmers Market
+98,"Carver Shores, Florida,",28.525462,-81.449131,19,Pizza Place,Yoga Studio,Donut Shop,Football Stadium,Food Truck,Food,Fishing Spot,Fast Food Restaurant,Farmers Market,Fabric Shop
+99,"Kirkman North, Florida,",28.516214,-81.456973,27,Sandwich Place,Pizza Place,Smoothie Shop,Nail Salon,Tex-Mex Restaurant,Salon / Barbershop,Seafood Restaurant,Chinese Restaurant,Ice Cream Shop,Coffee Shop
+100,"Florida Center, Florida,",28.47798,-81.458604,0,Hotel,Italian Restaurant,Coffee Shop,Bar,Indian Restaurant,Café,Japanese Restaurant,American Restaurant,Asian Restaurant,Farmers Market
+101,"Windhover, Florida,",28.488422,-81.462839,17,Pool,Gym / Fitness Center,Dog Run,Trail,Yoga Studio,Electronics Store,Football Stadium,Food Truck,Food,Fishing Spot
+102,"Kirkman South, Florida,",28.495645,-81.465024,28,Boat or Ferry,Shipping Store,Coffee Shop,Donut Shop,Football Stadium,Food Truck,Food,Fishing Spot,Fast Food Restaurant,Farmers Market
+103,"MetroWest, Florida,",28.51568,-81.478898,1,Pool,Italian Restaurant,Chinese Restaurant,Donut Shop,Football Stadium,Food Truck,Food,Fishing Spot,Fast Food Restaurant,Farmers Market
+104,"Westfield, Florida,",28.533828,-81.564296,20,Playground,Yoga Studio,Donut Shop,Football Stadium,Food Truck,Food,Fishing Spot,Fast Food Restaurant,Farmers Market,Fabric Shop
